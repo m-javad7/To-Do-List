@@ -121,3 +121,22 @@ ul li:hover {
     font-size: 1.5rem;
 }
 
+@media  screen and (min-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .container_tittle{
+
+    }
+    .header_tittle{
+        padding: 8px;
+        font-size: 2.3rem;
+    }
+    .header_desc{
+        font-size: 1.7rem;
+        padding: 0 8px 10px;
+    }
+    input[type="text"]{
+        width: 100%;
+    }
+}
