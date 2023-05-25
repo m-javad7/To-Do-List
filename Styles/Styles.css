@@ -29,3 +29,55 @@
     font-size: 1.4rem;
     color: var(--color--light-blue);
 }
+/*Style Input*/
+.box{
+    margin-top: 16px;
+    background-color: var(--color--light-blue);
+    border-radius: 8px;
+}
+.box_input{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px}
+.box_input input[type="text"]{
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    border: var(--color--light-blue);
+}
+.box_input_btn{
+    border-radius: 4px;
+    border: 1px solid greenyellow;
+    cursor: pointer
+
+}
+.item_list{
+    width: 80%;
+    margin-top: 4px;
+}
+ul {
+    list-style-type: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    border: 1px solid #cfe3e5;
+    border-radius: 8px;
+    background-color: var(--color--lighter-blue--9);
+    padding: 8px 22px 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+}
+ul li:nth-child(odd) {
+    background-color: var(--color--light-blue--9);
+}
+ul li:hover {
+    background-color: var(--color--dark-blue--9);
+}
