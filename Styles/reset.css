@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    background-image: url("../Assets/Images/to do.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+:root{
+    --color--dark-blue:#27374D;
+    --color--light-blue: #2f698f;
+    --color--light-blue-9: #2f698f85;
+    --color--white:#FFF;
+    --color--light-orange:#FCBD06;
+    --color--wormy:#f6f2a7;
+    --color--light--green:#0ca90c;
+    --color--red:#F00F;
+    /*RGBa*/
+    --color--blue--0-5:rgba(0,154,225,0.5);
+    --color--dark-blue--9:rgba(88, 145, 175, 0.9) ;
+    --color--light-blue--9: rgba(139, 203, 238, 0.9);
+    --color--lighter-blue--9:rgba(180, 218, 238,0.9) ;
+}
