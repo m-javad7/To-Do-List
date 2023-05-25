@@ -13,7 +13,7 @@
     align-items: center;
     margin: 50px 0 0;}
 .header,.box{
-    width: 80%;
+    width: 85%;
     backdrop-filter: blur(10px);
     padding: 2px 8px;
 }
@@ -70,10 +70,11 @@ ul li {
     background-color: var(--color--lighter-blue--9);
     padding: 8px 22px 8px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: black;
     cursor: pointer;
     text-align: left;
+    overflow-wrap: anywhere;
 }
 ul li:nth-child(odd) {
     background-color: var(--color--light-blue--9);
@@ -90,7 +91,9 @@ ul li:hover {
     display: none;
 }
 .delete_btn {
-    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
     cursor: pointer;
     padding: 8px;
     background-color: #539f9b;
@@ -108,17 +111,17 @@ ul li:hover {
 }
 
 .fix_delete, .fix_item{
-    width: 100px;
+    width: 150px;
     border-radius: 8px;
     padding: 8px;
     background-color: rgba(88, 145, 175, 0.9);
     color: var(--color--white);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .fix_text{
     color: var(--color--white);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 @media  screen and (min-width: 768px) {
@@ -136,7 +139,17 @@ ul li:hover {
         font-size: 1.7rem;
         padding: 0 8px 10px;
     }
+    .header,.box {
+        width: 80%;
+    }
     input[type="text"]{
         width: 100%;
+    }
+    .fix_delete, .fix_item{
+        width: 100px;
+        font-size: 1.5rem;
+    }
+    .fix_text{
+        font-size: 1.3rem;
     }
 }
