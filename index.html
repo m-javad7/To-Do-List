@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+<div class="main">
+   <div class="container">
+       <div class="header">
+           <h1 class="header_tittle">To Do List</h1>
+           <h3 class="header_desc">Enter your tasks in the list to be added to the list of tasks.</h3>
+       </div>
+       <div class="box">
+           <div class="box_input">
+               <button type="submit" id="add" class="box_input_btn" title="add Task!"><img width="28" height="28" src="https://img.icons8.com/parakeet/24/add-list.png" alt="add-list"/></button>
+               <input type="text" id="userInput" placeholder="Enter your daily tasks." />
+           </div>
+       </div>
+   </div>
+<!-- Item List empty-->
+        <div class="item_list">
+            <div class="item_list_fix">
+                <div class="fix_item">Item List</div>
+                <span class="fix_text">Use the <span class="delete_btn">X</span> button to delete tasks and you can also double-click on completed tasks to change its color to completed tasks.</span>
+                <div class="fix_delete">Delete</div>
+            </div>
+            <ul>
+            </ul>
+    </div>
+</div>
+<script src="Script/Js.js"></script>
+</body>
+</html>
