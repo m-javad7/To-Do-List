@@ -1,0 +1,31 @@
+@import "reset.css";
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0;}
+.header,.box{
+    width: 80%;
+    backdrop-filter: blur(10px);
+    padding: 2px 8px;
+}
+.header{
+    background: var(--color--blue--0-5);
+    border-radius: 16px;
+}
+.header_tittle{
+    font-size: 2rem;
+    color: var(--color--dark-blue);
+}
+.header_desc{
+    font-size: 1.4rem;
+    color: var(--color--light-blue);
+}
