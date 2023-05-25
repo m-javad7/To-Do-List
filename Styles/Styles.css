@@ -81,3 +81,43 @@ ul li:nth-child(odd) {
 ul li:hover {
     background-color: var(--color--dark-blue--9);
 }
+
+.done{
+    background-color: var(--color--light--green)!important;
+    color: var(--color--white);
+}
+.delete{
+    display: none;
+}
+.delete_btn {
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 8px;
+    background-color: #539f9b;
+    color: var(--color--white);
+    font-weight: bold;
+}
+.item_list_fix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color--light-blue);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.fix_delete, .fix_item{
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgba(88, 145, 175, 0.9);
+    color: var(--color--white);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.fix_text{
+    color: var(--color--white);
+    font-size: 1.5rem;
+}
+
